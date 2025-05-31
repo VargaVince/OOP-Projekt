@@ -147,7 +147,7 @@ def uticel_kivalasztas(szuro: list):
 
 def idopont_kivalasztas():
 
-    idopont = input('Kerjuk adja meg az idopontot (2000-02-31 formaban): ')
+    idopont = input('Kerjuk adja meg az idopontot (eeee-hh-nn formaban): ')
     print(separator)
     while idopont_szures == []:
         for j in uticel_szures:
