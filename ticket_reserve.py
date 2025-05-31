@@ -230,6 +230,7 @@ def foglalas_program():
 
 def lemondas_program():
 
+    print('Sajat foglalasok: ')
     for f in sajat_foglalasok: print(f)
     print(separator)
     
@@ -282,4 +283,6 @@ while not kilep:
         lemondas_program()
 
     vege = input('Kilep a programbol? ')
-    if vege.lower() == 'igen': kilep = True
+    if vege.lower() == 'igen': 
+        kilep = True
+        print('Viszlat!')
